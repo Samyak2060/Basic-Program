@@ -1,0 +1,17 @@
+package Basic;
+import java.util.Scanner;
+public class SI {
+    public static void main(String args[]) {
+        int i = 0;
+        float p, t, r, simple_intrest;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter principle");
+        p = sc.nextFloat();
+        System.out.println("enter time");
+        t = sc.nextFloat();
+        System.out.println("enter rate");
+        r = sc.nextFloat();
+        simple_intrest = p * t * r / 100;
+        System.out.println(simple_intrest);
+    }
+}
